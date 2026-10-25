@@ -21,4 +21,6 @@ def test_ask_prints_input_and_output_token_counts(monkeypatch, capsys):
     monkeypatch.setattr(ask, "get_api_key", lambda: "test-key")
 
     assert ask.ask("質問") == "回答"
-    assert "[tokens] 入力: 12, 出力: 34" in capsys.readouterr().out
+    output = capsys.readouterr().out
+    assert "[time]" in output
+    assert "[tokens] 入力: 12, 出力: 34" in output
