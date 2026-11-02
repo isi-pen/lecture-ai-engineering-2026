@@ -1,0 +1,77 @@
+[
+  {
+    "question": "「LoRA」とは何ですか？",
+    "kind": "in_glossary",
+    "must_include": ["低ランク", "アダプタ"]
+  },
+  {
+    "question": "「宿題の3レベル」とは何ですか？",
+    "kind": "in_glossary",
+    "must_include": ["基礎", "実装", "発展"]
+  },
+  {
+    "question": "「ハルシネーション」とは何ですか？",
+    "kind": "in_glossary",
+    "must_include": ["事実と異なる"]
+  },
+  {
+    "question": "「過学習」とは何ですか？",
+    "kind": "in_glossary",
+    "must_include": ["検証データ"]
+  },
+  {
+    "question": "「QLoRA」とは何ですか？",
+    "kind": "in_glossary",
+    "must_include": ["4ビット", "LoRA"]
+  },
+  {
+    "question": "LoRAを一言で言うと、何を固定して何を学習する手法ですか？",
+    "kind": "rephrased",
+    "must_include": ["固定", "小さな行列"]
+  },
+  {
+    "question": "Low-Rank Adaptation について、この講座では何を学習すると説明していますか？",
+    "kind": "rephrased",
+    "must_include": ["低ランク", "アダプタ"]
+  },
+  {
+    "question": "この講座の宿題は、基礎・実装・発展のどれか一つで終わりますか？",
+    "kind": "rephrased",
+    "must_include": ["完了"]
+  },
+  {
+    "question": "lec03-start というタグは何のためのものですか？",
+    "kind": "rephrased",
+    "must_include": ["Gitタグ", "ブランチ"]
+  },
+  {
+    "question": "事実と違うことを、もっともらしく生成してしまう現象の名前は？",
+    "kind": "rephrased",
+    "must_include": ["ハルシネーション"]
+  },
+  {
+    "question": "「RAG」とは何ですか？",
+    "kind": "unknown",
+    "must_include": []
+  },
+  {
+    "question": "この講座の第4回では何を学びますか？",
+    "kind": "unknown",
+    "must_include": []
+  },
+  {
+    "question": "「gold-star採点」とは何ですか？",
+    "kind": "unknown",
+    "must_include": []
+  },
+  {
+    "question": "Kubernetesとは何ですか？",
+    "kind": "unknown",
+    "must_include": []
+  },
+  {
+    "question": "勾配消失問題とは何ですか？",
+    "kind": "unknown",
+    "must_include": []
+  }
+]
